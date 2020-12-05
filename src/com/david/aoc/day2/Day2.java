@@ -8,7 +8,7 @@ public class Day2 {
 
     public static void main(String[] args) throws IOException, URISyntaxException {
         Two two = new Two();
-        List<String> input = two.fileToArray("day2");
+        List<String> input = two.fileToArray("day2.txt");
         int validPws = 0;
         int validPws2 = 0;
         for (String item : input) {
